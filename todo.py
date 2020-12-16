@@ -19,7 +19,7 @@ $ ./todo del NUMBER       # Delete a todo
 $ ./todo done NUMBER      # Complete a todo
 $ ./todo help             # Show usage
 $ ./todo report           # Statistics"""
-	sys.stdout.buffer.write(todohelp.encode('utf8'))
+	sys.stdout.buffer.write(todohelp.encode('utf8'))		# Print the Usage in UTF-8 Encoding as the default print() generates unexpected results.
 	
 
 def addToList(st):
@@ -47,7 +47,7 @@ def showList():
 	    for line in data:
 	    	st+='[{}] {}'.format(ct,line)
 	    	ct-=1
-	    sys.stdout.buffer.write(st.encode('utf8'))
+	    sys.stdout.buffer.write(st.encode('utf8'))			# Print the Tasks in Reverse Order in UTF-8 Encoding as the default print() generates unexpected results.
 	else:
 	    print ("There are no pending todos!") 
 
@@ -83,7 +83,7 @@ def markDone(num):
 	    	print("Error: todo #{} does not exist.".format(num))
 	    else:
 	    	with open("todo.txt",'w') as todoFileMod:
-	    		if os.path.isfile('done.txt'):
+	    		if os.path.isfile('done.txt'):						# Produces output according to the availability of done.txt file.
 	    			with open("done.txt",'r') as doneFileOri:
 				    	doneData=doneFileOri.read()
 			    	with open("done.txt",'w') as doneFileMod:
@@ -121,9 +121,9 @@ def generateReport():
 	    with open("done.txt",'r') as doneFile:
 	    	doneData=doneFile.readlines()
 	    countDone=len(doneData)
-	print(datetime.today().strftime('%Y-%m-%d'),end='')
-	print(" Pending : {} Completed : {}".format(countTodo,countDone))
-	return
+	st=datetime.today().strftime('%Y-%m-%d') + " Pending : {} Completed : {}".format(countTodo,countDone)
+	sys.stdout.buffer.write(st.encode('utf8'))
+
 
 def main(): 
 
