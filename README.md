@@ -1,14 +1,17 @@
-# CoronaSafe Engineering Fellowship Test Problem
+<h2 align="center" style="margin-top: -4px !important;">Todo List Client...</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/build-passing-brightgreen">
+  <img src="https://img.shields.io/badge/python-3.8-blue">
+  <img src="https://img.shields.io/badge/os-windows-success">
+</p>
 
-Thanks for applying to the CoronaSafe Engineering fellowship!
+This Script/Program is written as a part of CoronaSafe Engineering Fellowship Test Problem in the Python Programming Language passing all the test cases as given in the .js file. Proof of all Test Cases passing is as shown below.
 
-In this step we want to see how you implement a command-line (CLI) program that lets you manage your todos.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72680045/102393501-74dfd000-3ffe-11eb-9304-116a7ee51a5d.PNG">
+</p>
+<br>
 
-The specification for this problem is written down as tests. Since we haven’t actually implemented anything, the tests are currently failing. You have to solve the problem by implementing the application and getting all the tests to pass.
-
-Here's how it should work when you're done:
-
-[![Todo-CLI](https://res.cloudinary.com/sv-co/image/upload/v1607935139/fullstack-CEF/Todo-CLI/play-video-demo_fp50wp.png)](https://vimeo.com/490621534)
 ## Getting started
 
 1. Install Python: Python is usually installed by default on most modern systems. To check what your currently have, open a terminal and run the following command
@@ -166,7 +169,3 @@ Use the `report` command to see the latest tally of pending and completed todos.
 $ ./todo report
 dd/mm/yyyy Pending : 1 Completed : 4
 ```
-
-
-## Improving README.md
-If you feel like we are missing out steps, feel free to make a pull request. [Github Repo](https://github.com/nseadlc-2020/package-todo-cli-task)
