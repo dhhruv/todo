@@ -2,7 +2,9 @@
 <p align="center">
   <img src="https://img.shields.io/badge/build-passing-brightgreen">
   <img src="https://img.shields.io/badge/python-3.8-blue">
+  <img src="https://img.shields.io/badge/maintainer-dhhruv-informational">
   <img src="https://img.shields.io/badge/os-windows-success">
+  <img src="https://img.shields.io/badge/contributions-welcome-brightgreen">
 </p>
 
 This Script/Program is written as a part of CoronaSafe Engineering Fellowship Test Problem by Pupilfirst in the Python Programming Language passing all the test cases as given in the .js file. Proof of all Test Cases passing is as shown below.
