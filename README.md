@@ -27,7 +27,13 @@ This Script/Program is written as a part of CoronaSafe Engineering Fellowship Te
 
 3. Once you are done with the changes you should be able to execute the todo app by running the following commandfrom the terminal.
 
-   **On Windows:**
+   **On Windows (Command Prompt):**
+
+   ```
+   todo.bat
+   ```
+
+   **On Windows (PowerShell):**
 
    ```
    ./todo.bat
