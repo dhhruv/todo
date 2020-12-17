@@ -8,7 +8,7 @@
 This Script/Program is written as a part of CoronaSafe Engineering Fellowship Test Problem by Pupilfirst in the Python Programming Language passing all the test cases as given in the .js file. Proof of all Test Cases passing is as shown below.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72680045/102393501-74dfd000-3ffe-11eb-9304-116a7ee51a5d.PNG">
+  <img src="https://user-images.githubusercontent.com/72680045/102444614-a1700800-404f-11eb-9fea-c4b9fe9439c4.PNG">
 </p>
 <br>
 
