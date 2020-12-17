@@ -1,9 +1,9 @@
 <h1 align="center" style="margin-top: -4px !important;">Todo List Client</h2>
 <p align="center">
   <img src="https://img.shields.io/badge/build-passing-brightgreen">
-  <img src="https://img.shields.io/badge/python-3.8-blue">
+  <img src="https://img.shields.io/badge/python-3.8-informational">
   <img src="https://img.shields.io/badge/maintainer-dhhruv-informational">
-  <img src="https://img.shields.io/badge/os-windows-success">
+  <img src="https://img.shields.io/badge/os-windows-brightgreen">
   <img src="https://img.shields.io/badge/contributions-welcome-brightgreen">
 </p>
 
