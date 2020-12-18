@@ -69,7 +69,7 @@ def delFromList(num):
 	    			ct-=1
 	    	print("Deleted todo #{}".format(num))
 	else:
-	    print("Error: todo #{} does not exist. Nothing deleted.".format(num))
+	    print(f"Error: todo #{num} does not exist. Nothing deleted.")
 
 
 def markDone(num):
