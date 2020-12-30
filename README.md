@@ -14,6 +14,7 @@ This Script/Program is written as a part of CoronaSafe Engineering Fellowship Te
 </p>
 <br>
 
+
 ## Getting started
 
 1. Install Python: Python is usually installed by default on most modern systems. To check what your currently have, open a terminal and run the following command
