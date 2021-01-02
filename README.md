@@ -1,9 +1,13 @@
 # Todo List Script..
 
-This Script/Program is written as a part of CoronaSafe Engineering Fellowship Test Problem by Pupilfirst in the Python Programming Language passing all the test cases as given in the .js file.
+This Script/Program is written as a part of CoronaSafe Engineering Fellowship Test Problem by Pupilfirst in the Python Programming Language passing all the test cases as given in the .js file. **Completed all Test cases in 4.8 seconds.**
 
 **Tested on Windows OS.**
 **Author: Dhruv Panchal**
+
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/72680045/103451547-3ed36900-4ceb-11eb-99a9-5ac160fb0314.PNG" alt="Todo Working Proof">
+</p>
 
 ## Getting started
 
