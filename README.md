@@ -68,7 +68,7 @@ This Script/Program is written as a part of CoronaSafe Engineering Fellowship Te
 
     The date when the todo is marked as completed is recorded in the `yyyy-mm-dd` format (ISO 8601). For example, a date like `15th August, 2020` is represented as `2020-08-15`.
 
-    **Note:- Here I added a something out of the box where `todo report` will generate the pending and completed tasks of the current day so if there are completed tasks in `done.txt` of days other than current day then they won't be counted in the report of current day.**
+    **Note:- Here I added something out of the box where `todo report` will generate the pending and completed tasks of the current day so if there are completed tasks in `done.txt` of days other than current day then they won't be counted in the report of current day.**
 
 4.  The application must open the files `todo.txt` and `done.txt` from where the app is run, and not where the app is located. For example, if we invoke the app like this:
 
@@ -172,4 +172,4 @@ Use the `report` command to see the latest tally of pending and completed todos.
 $ ./todo report
 dd/mm/yyyy Pending : 1 Completed : 4
 ```
-**Note: If there are arguments after report for eg. `todo report abc` then it will throw an Exception due to given specifications in the Initial README and will recommend to use `todo help`. Here I added a something out of the box where `todo report` will generate the pending and completed tasks of the current day so if there are completed tasks in `done.txt` of days other than current day then they won't be counted in the report of current day.**
+**Note: If there are arguments after report for eg. `todo report abc` then it will throw an Exception due to given specifications in the Initial README and will recommend to use `todo help`. Here I added something out of the box where `todo report` will generate the pending and completed tasks of the current day so if there are completed tasks in `done.txt` of days other than current day then they won't be counted in the report of current day.**
